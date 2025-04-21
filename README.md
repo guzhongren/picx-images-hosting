@@ -14,9 +14,9 @@
 ### Example
 
 ```
-https://cdn.jsdelivr.net/gh/au-heartbeat/data-hosting@main/demo-folder/Heartbeat_Logo_Single_Full_Color_RGB.png
-https://cdn.staticaly.com/gh/au-heartbeat/data-hosting@main/demo-folder/Heartbeat_Logo_Single_Full_Color_RGB.png
-https://jsd.cdn.zzko.cn/gh/au-heartbeat/data-hosting@main/demo-folder/Heartbeat_Logo_Single_Full_Color_RGB.png
+https://cdn.jsdelivr.net/gh/guzhongren/picx-images-hosting@master/demo-folder/Heartbeat_Logo_Single_Full_Color_RGB.png
+https://cdn.staticaly.com/gh/guzhongren/picx-images-hosting@master/demo-folder/Heartbeat_Logo_Single_Full_Color_RGB.png
+https://jsd.cdn.zzko.cn/gh/guzhongren/picx-images-hosting@master/demo-folder/Heartbeat_Logo_Single_Full_Color_RGB.png
 ```
 
 
