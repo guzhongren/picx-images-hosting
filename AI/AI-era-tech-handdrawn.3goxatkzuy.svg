@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="AI 时代 手绘信息图插画">
+  <defs>
+    <style>
+      .bg{fill:#FAFBFE}
+      .stroke{fill:none;stroke:#1f2937;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+      .accent{fill:#6EE7B7}
+      .accent2{fill:#93C5FD}
+      .hand{font-family: "Segoe Script", "Comic Sans MS", "Chalkboard SE", cursive; font-size:32px; fill:#0f172a}
+      .small{font-size:20px;fill:#334155}
+      .dashed{stroke-dasharray:12 8}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+
+  <!-- Title block -->
+  <g transform="translate(60,40)">
+    <rect x="0" y="0" width="980" height="90" rx="14" ry="14" fill="#fff" stroke="#e2e8f0" stroke-width="3"/>
+    <text x="28" y="58" class="hand">AI 时代需要什么？</text>
+    <text x="760" y="58" class="small">手绘信息图 · 概念示意</text>
+  </g>
+
+  <!-- Left: Definition -->
+  <g transform="translate(60,160)">
+    <rect x="0" y="0" width="420" height="620" rx="12" ry="12" fill="#fff" stroke="#e6eef8"/>
+    <text x="24" y="48" class="hand">定义问题</text>
+
+    <!-- Brain icon -->
+    <g transform="translate(30,90)">
+      <ellipse cx="90" cy="80" rx="70" ry="50" fill="#fff" stroke="#111827" stroke-width="5"/>
+      <path d="M50 80 q40 -30 80 0" class="stroke"/>
+      <path d="M60 110 q30 -20 60 0" class="stroke"/>
+      <circle cx="30" cy="60" r="6" fill="#93C5FD"/>
+      <circle cx="150" cy="100" r="6" fill="#6EE7B7"/>
+    </g>
+
+    <text x="24" y="260" class="small">- 明确目标与成功指标</text>
+    <text x="24" y="290" class="small">- 限定约束与技术栈</text>
+    <text x="24" y="320" class="small">- 拆分子问题为可交付任务</text>
+    <text x="24" y="350" class="small">- 设计验证回路（单元/集成）</text>
+  </g>
+
+  <!-- Center: Orchestration / Agents -->
+  <g transform="translate(520,160)">
+    <rect x="0" y="0" width="560" height="620" rx="12" ry="12" fill="#fff" stroke="#e6eef8"/>
+    <text x="24" y="48" class="hand">管理 · 多 Agent 协作</text>
+
+    <!-- Orchestrator cloud -->
+    <g transform="translate(120,110)">
+      <rect x="0" y="0" width="320" height="160" rx="18" ry="18" fill="#fff" stroke="#111827" stroke-width="5"/>
+      <text x="20" y="38" class="small">Orchestrator</text>
+      <text x="20" y="70" class="small">- 调度 Agent</text>
+      <text x="20" y="100" class="small">- 聚合结果与验证</text>
+    </g>
+
+    <!-- Agents -->
+    <g transform="translate(40,300)">
+      <g>
+        <rect x="0" y="0" width="160" height="52" rx="10" ry="10" fill="#fff" stroke="#111827"/>
+        <text x="80" y="34" text-anchor="middle" class="small">Plan Agent</text>
+      </g>
+      <g transform="translate(180,0)">
+        <rect x="0" y="0" width="160" height="52" rx="10" ry="10" fill="#fff" stroke="#111827"/>
+        <text x="80" y="34" text-anchor="middle" class="small">Code Agent</text>
+      </g>
+      <g transform="translate(360,0)">
+        <rect x="0" y="0" width="160" height="52" rx="10" ry="10" fill="#fff" stroke="#111827"/>
+        <text x="80" y="34" text-anchor="middle" class="small">Review Agent</text>
+      </g>
+
+      <!-- arrows -->
+      <path d="M160 26 L180 26" class="stroke dashed"/>
+      <path d="M340 26 L360 26" class="stroke dashed"/>
+    </g>
+
+    <!-- observability -->
+    <g transform="translate(40,420)">
+      <circle cx="40" cy="40" r="28" fill="#fff" stroke="#111827" stroke-width="4"/>
+      <text x="80" y="48" class="small">可观测性：输入/版本/置信度</text>
+    </g>
+  </g>
+
+  <!-- Right: Learning loop -->
+  <g transform="translate(1100,160)">
+    <rect x="0" y="0" width="420" height="620" rx="12" ry="12" fill="#fff" stroke="#e6eef8"/>
+    <text x="24" y="48" class="hand">快速学习</text>
+
+    <!-- loop diagram -->
+    <g transform="translate(60,110)">
+      <circle cx="120" cy="100" r="56" fill="#fff" stroke="#111827" stroke-width="5"/>
+      <text x="86" y="110" class="small">实验</text>
+      <path d="M176 100 q40 0 80 0" class="stroke"/>
+      <rect x="260" y="80" width="120" height="60" rx="8" ry="8" fill="#fff" stroke="#111827"/>
+      <text x="280" y="115" class="small">复盘/沉淀</text>
+      <path d="M260 140 q-60 40 -140 40" class="stroke"/>
+    </g>
+
+    <text x="24" y="360" class="small">- 小步实验</text>
+    <text x="24" y="390" class="small">- 模板化复用 Prompt</text>
+  </g>
+
+</svg>
